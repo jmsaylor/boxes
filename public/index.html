@@ -8,6 +8,12 @@
   </head>
   <body>
     <canvas class="myCanvas"></canvas>
+    <div style="text-align:right">
+      <form onSubmit="changeAge(event)">
+        <input type="number" id="age" /><label>Age</label><br />
+        <button type="submit" name="action">ReDraw</button>
+      </form>
+    </div>
     <script src="canvas.js"></script>
     <script src="script.js"></script>
   </body>
